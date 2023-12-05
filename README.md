@@ -1,2 +1,4 @@
 # wom_n1
-Para que este script funcione, se debe ir mediante consola al apartado de cloud functions y una vez ahí crear una cloud function con un evento trigger de creación de objeto en un cloud storage, que debe ser previamente creado en el apartado de cloud storage
+1) Crear un bucket de cloud storage donde sera depositado el archivo a ser manipulado.
+2) Mediante consola crear una cloud function que cuente con un eventro trigger la carga de un archivo en el bucket anteriormente creado.
+3) Depositar cualquier archivo en el bucket para ejecutar la cloud function
